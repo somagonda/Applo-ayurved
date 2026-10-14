@@ -1,0 +1,27 @@
+{
+  "Bengaluru": {
+    "Whitefield": [
+      { "id": "D1", "name": "Dr. Arjun Menon", "speciality": "Panchakarma" },
+      { "id": "D2", "name": "Dr. Kavya Shetty", "speciality": "Women's health" }
+    ],
+    "Jayanagar": [
+      { "id": "D3", "name": "Dr. Suresh Nair", "speciality": "Panchakarma" },
+      { "id": "D4", "name": "Dr. Geeta Rao", "speciality": "General Ayurveda" }
+    ]
+  },
+  "Kochi": {
+    "Kadavanthra": [
+      { "id": "D5", "name": "Dr. Lakshmi Pillai", "speciality": "Joint and spine care" },
+      { "id": "D6", "name": "Dr. Rahul Varma", "speciality": "General Ayurveda" }
+    ]
+  },
+  "Pune": {
+    "Kothrud": [
+      { "id": "D7", "name": "Dr. Neha Kulkarni", "speciality": "Skin care" }
+    ],
+    "Aundh": [
+      { "id": "D8", "name": "Dr. Vikram Joshi", "speciality": "Diabetes and lifestyle" }
+    ]
+  }
+}
+

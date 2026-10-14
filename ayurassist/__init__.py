@@ -1,0 +1,1 @@
+"""AyuAssist terminal booking app."""

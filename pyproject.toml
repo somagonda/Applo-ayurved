@@ -1,0 +1,29 @@
+[project]
+name = "ayurassist"
+version = "0.1.0"
+description = "Terminal AI agent for booking fictional Ayurveda clinic consultations."
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=2.0.0",
+    "python-dotenv>=1.0.1",
+    "rapidfuzz>=3.10.0",
+]
+
+[project.scripts]
+ayuvaid = "ayurassist.main:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
